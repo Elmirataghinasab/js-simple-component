@@ -1,0 +1,77 @@
+.main-divv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  border: 10px;
+  border-radius: 5px;
+  border-color: rgb(185, 185, 185);
+  direction: rtl;
+}
+.txtmaindiv{
+  display: grid;
+  justify-content: right;
+  
+}
+.frstp,.scndp,.tthp,.fthp{
+font-size: 15px;
+margin: 5px;
+padding: 0;
+font-family:arial;
+font-weight: lighter;
+}
+.but{
+  background-color: #ef4056;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border: 0px;
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 85%;
+}
+.actions{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin:0;
+  margin-bottom: 10px;
+}
+.inputt{
+  border-radius: 5px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-color:#ef4056;
+  width: 85%;
+}
+.logo{
+  height: 40px;
+}
+.frstp{
+  font-weight: bold;
+  font-size: 20px;
+}
+.inputt:focus{
+outline-offset:0px;
+outline: none;
+border-color: #19bfd3;
+caret-color: #19bfd3;
+font-family: Yekan;
+}
+.inp{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.butdiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+a{
+  color: #19bfd3;
+  text-decoration: none;
+}

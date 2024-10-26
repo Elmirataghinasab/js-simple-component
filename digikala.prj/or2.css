@@ -1,0 +1,62 @@
+.main-divv{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border: 10px;
+  border-radius: 5px;
+  border-color: rgb(185, 185, 185);
+  direction: rtl;
+}
+.head{
+  direction: rtl;
+}
+.but{
+  background-color: #ef4056;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border: 0px;
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 95%;
+}
+.pr2{
+font-size: 14px;
+}
+.inp{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.inpp{
+  border-radius: 5px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0; 
+  width: 85% ;
+}
+.inpp:focus{
+  outline-offset:0px;
+  outline: none;
+  border-color: #19bfd3;
+  caret-color: #19bfd3;
+}
+.butdiv{
+  display: flex;
+  justify-content: center;
+}
+.flash{
+  font-size: 30px;
+  font-weight: bold;
+}
+.linksdivv{
+  padding-inline-start: 30%;
+}
+.aaa{
+  text-decoration: 0;
+  color: #19bfd3;
+}
